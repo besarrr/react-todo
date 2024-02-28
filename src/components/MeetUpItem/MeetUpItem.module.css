@@ -1,0 +1,48 @@
+.container {
+  width: 500px;
+  height: fit-content;
+  background-color: lightgrey;
+  text-align: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.container:hover {
+  transition: 0.3s;
+  scale: 0.98;
+}
+.container:not(:hover) {
+  transition: 0.3s;
+  scale: 1;
+}
+
+div h1,
+p {
+  color: hsl(261, 95%, 8%);
+}
+
+.cardImage {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+  .cardImage {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .container {
+    width: 330px;
+  }
+  .cardImage {
+    width: 330px;
+  }
+}

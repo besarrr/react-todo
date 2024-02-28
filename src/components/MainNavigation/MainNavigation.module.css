@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  background-color: hsl(262, 78%, 47%);
+  justify-content: space-around;
+  align-items: center;
+  height: 92px;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.container ul {
+  display: flex;
+  gap: 30px;
+  color: white;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.li a:hover {
+  transition: 0.3s;
+  color: white;
+}
+
+body {
+  background-color: #faf8f7;
+}
